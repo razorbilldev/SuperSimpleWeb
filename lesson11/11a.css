@@ -1,0 +1,28 @@
+.card {
+    display: grid;
+    grid-template-columns: 200px 75px
+}
+
+.column-1 {
+    background-color: lightblue;
+}
+.column-2 {
+    background-color: lightcoral;
+}
+
+.card2 {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+
+.card2 .column-1 {
+    background-color: lightblue;
+}
+
+.card2 .column-2 {
+    background-color: lightcoral;
+}
+
+.card2 .column-3 {
+    background-color: lightgreen;
+}
