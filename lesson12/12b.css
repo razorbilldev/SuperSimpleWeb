@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.item1 {
+    background-color: lightblue;
+    width: 50px;
+}
+
+.item2 {
+    background-color: lightcoral;
+    flex: 1;
+}
+
+.item3 {
+    background-color: lightgreen;
+    width: 75px;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item11 {
+    background-color: lightblue;
+}
+
+.flexbox-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 50px;
+    align-items: center;
+}
+
+.item12 {
+    background-color: lightcoral;
+}

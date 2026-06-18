@@ -1,0 +1,24 @@
+.flex-container {
+  display: flex;
+}
+
+.box-1 {
+  width: 100px;
+  height: 50px;
+  background-color: lightpink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-2 {
+  width: 200px;
+  height: 50px;
+  background-color: lightblue;
+}
+
+.item-text {
+  background-color: black;
+  color: white;
+  padding: 2px 4px;
+}
